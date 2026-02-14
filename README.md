@@ -1,2 +1,51 @@
-# mtu-optimizer
-MTU optimizer tool for Linux servers, V2Ray and tunnel networks
+# MTU Optimizer 🚀
+
+MTU Optimizer is a lightweight and interactive Bash tool for configuring and optimizing MTU values on Linux servers.
+
+This tool is especially useful for tunnel-based connections such as V2Ray, Xray, WireGuard, GRE, and Reality, where incorrect MTU settings can cause file transfer issues.
+
+---
+
+## 📌 Problem This Tool Solves
+
+Improper MTU configuration may cause:
+
+- Text messages working but file uploads failing
+- Telegram media not sending
+- WhatsApp media stuck on sending
+- Broken or slow connections
+- Packet fragmentation
+- Tunnel instability
+
+Setting MTU to an optimized value like **1380** resolves these issues in most cases.
+
+---
+
+## ✨ Features
+
+- Interactive interface selection
+- Custom MTU input
+- Default MTU value: **1380**
+- Automatic MTU validation
+- Optional persistent configuration
+- Simple and lightweight
+- Compatible with most Linux distributions
+
+---
+
+## 🖥 Supported Operating Systems
+
+- Ubuntu
+- Debian
+- CentOS
+- AlmaLinux
+- VPS and Dedicated Servers
+
+---
+
+## ⚡ Quick Install (Recommended)
+
+Run this command:
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/Emmanuel-RCL/mtu-optimizer/main/set-mtu.sh)
