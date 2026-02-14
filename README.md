@@ -49,7 +49,7 @@ Run this command:
 
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/Emmanuel-RCL/mtu-optimizer/main/set-mtu.sh)
-
+```
 
 ## 📥 Manual Installation
 
